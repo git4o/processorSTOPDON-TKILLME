@@ -1,1 +1,1 @@
-code = {"code":"its what makes a program a progeam","boolean":""}
+code = {"code":"its what makes a program a progeam","boolean":"fancy way of saying true of false"}
