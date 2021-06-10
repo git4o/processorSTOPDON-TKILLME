@@ -1,5 +1,5 @@
 #tic tac toe
-
+import secondary
 grid = ["__" for i in range(9) ]
 
 def play():
@@ -10,6 +10,7 @@ turn = True
 
 while "__" in grid:
 	play()
+  if "__" != grid[0] and grid[0] == grid[4] and grid
 	answer = int(input("What space"))
 	if answer != 0:
 		if turn:
