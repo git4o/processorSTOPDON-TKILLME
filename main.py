@@ -10,7 +10,8 @@ turn = True
 
 while "__" in grid:
 	play()
-  if "__" != grid[0] and grid[0] == grid[4] and grid
+	if "__" != grid[0] and grid[0] == grid[4] and grid [4] == grid [8]:
+		print(grid[0] +"wins")
 	answer = int(input("What space"))
 	if answer != 0:
 		if turn:
