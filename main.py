@@ -30,10 +30,10 @@ while "__" in grid:
 			play()
 			print("x wins")
 			quit()
-    else:
-      grid = ["o"] * 9
-      play()
-      print("o wins")
-      quit()
+		else:
+			grid = ["o"] * 9
+			play()
+			print("o wins")
+			quit()
 play()
 print("Tie")
